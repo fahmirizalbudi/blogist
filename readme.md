@@ -1,51 +1,77 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/fahmirizalbudi/blogist/14159227cfbc9a31a52b2758bf1d1d5ce8fdc2a0/blogist.svg" alt="Blogist Logo" width="300"/>
-</p>
+<div align="center">
+<a href="https://github.com/fahmirizalbudi/blogist" target="blank">
+<img src="blogist.svg" width="300" alt="Logo" /><br/>
+</a>
+
+<br />
+<br />
+
+![](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+</div>
 
 <br/>
 
-# ✒️ BLogist
+## ✅ Todoes
 
-Blogist adalah sebuah aplikasi blog modern yang memungkinkan kamu membuat, mengelola, dan membagikan konten secara mudah.
+Blogist is a modern blogging application that lets you create, manage, and share content easily. Built on top of WordPress. Key features include:
 
----
+## ✨ Features
 
-## 🛠️ Teknologi
+- **📝 Content Management:** Powerful editor for creating posts, pages, and media.
+- **🏷️ Organization:** Organize content efficiently with categories and tags.
 
-- WordPress
-- PHP
+## 👩‍💻 Tech Stack
 
----
+- **WordPress**: The world's most popular content management system (CMS).
+- **PHP**: The core scripting language that powers WordPress.
+- **MySQL**: Relational database management system for storing content and settings.
 
-## 🚀 Instalasi & Setup
+## 📦 Getting Started
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/fahmirizalbudi/blogist.git
-cd kliklelang
-````
+To get a local copy of this project up and running, follow these steps.
 
-### 2. Setup WordPress
+### 🚀 Prerequisites
 
-* Pastikan kamu sudah punya web server (XAMPP, MAMP, atau LAMP) dan MySQL berjalan.
-* Salin folder blogist ke folder htdocs (jika menggunakan XAMPP).
-* Buat database baru di MySQL.
-* Jalankan WordPress installer melalui browser:
+- **PHP** (v7.4 or higher recommended).
+- **MySQL** (Database server).
+- **Web Server** (Apache/Nginx) or PHP built-in server.
 
-```bash
-http://localhost/blogist
-```
+## 🛠️ Installation
 
----
+1. **Clone the repository:**
 
-## 🎯 Tujuan Proyek
+   ```bash
+   git clone https://github.com/fahmirizalbudi/blogist.git
+   cd todoes
+   ```
 
-* Menyediakan platform blog sederhana dan modern
-* Melatih manajemen konten dengan WordPress
-* Fondasi untuk pengembangan tema atau plugin lanjutan
+2. **Configure wp-config:**
 
----
+   ```bash
+   cp wp-config-sample.php wp-config.php
+   
+   define( 'DB_NAME', 'blogist_db' );
+   define( 'DB_USER', 'root' );
+   define( 'DB_PASSWORD', 'your_password' );
+   ```
 
-## 📄 Lisensi & Kontak
+4. **Start the development server:**
 
-Maintainer: [@fahmirizalbudi](https://github.com/fahmirizalbudi)
+   ```bash
+   php -S localhost:8000
+   ```
+
+## 📖 Usage
+
+### ✔ Running the Application
+
+> Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+> Access the dashboard at [http://localhost:8000/wp-admin](http://localhost:8000/wp-admin).
+
+## 📜 License
+
+All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
