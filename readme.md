@@ -14,7 +14,7 @@
 
 <br/>
 
-## ✅ Todoes
+## 📰 Blogist
 
 Blogist is a modern blogging application that lets you create, manage, and share content easily. Built on top of WordPress. Key features include:
 
