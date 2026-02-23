@@ -14,64 +14,64 @@
 
 <br/>
 
-## 📰 Blogist
+## Blogist
 
-Blogist is a modern blogging application that lets you create, manage, and share content easily. Built on top of WordPress. Key features include:
+Blogist is a modern blogging platform designed for streamlined content creation and management. Built on the WordPress framework, it offers a robust set of features for efficient digital publishing.
 
-## ✨ Features
+## Features
 
-- **📝 Content Management:** Powerful editor for creating posts, pages, and media.
-- **🏷️ Organization:** Organize content efficiently with categories and tags.
+- **Content Management:** Comprehensive editor for managing posts, pages, and media.
+- **Organization:** Advanced taxonomy system for organizing content via categories and tags.
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
-- **WordPress**: The world's most popular content management system (CMS).
-- **PHP**: The core scripting language that powers WordPress.
-- **MySQL**: Relational database management system for storing content and settings.
+- **WordPress**: Core content management system (CMS).
+- **PHP**: Primary server-side scripting language.
+- **MySQL**: Relational database for persistent data storage.
 
-## 📦 Getting Started
+## Getting Started
 
-To get a local copy of this project up and running, follow these steps.
+Follow these instructions to set up a local development environment.
 
-### 🚀 Prerequisites
+### Prerequisites
 
 - **PHP** (v7.4 or higher recommended).
 - **MySQL** (Database server).
-- **Web Server** (Apache/Nginx) or PHP built-in server.
+- **Web Server** (Apache, Nginx, or PHP built-in server).
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/fahmirizalbudi/blogist.git
-   cd todoes
+   cd blogist
    ```
 
-2. **Configure wp-config:**
+2. **Configure Database Settings:**
 
    ```bash
    cp wp-config-sample.php wp-config.php
    
+   # Update the following values in wp-config.php:
    define( 'DB_NAME', 'blogist_db' );
    define( 'DB_USER', 'root' );
    define( 'DB_PASSWORD', 'your_password' );
    ```
 
-4. **Start the development server:**
+3. **Start the Development Server:**
 
    ```bash
    php -S localhost:8000
    ```
 
-## 📖 Usage
+## Usage
 
-### ✔ Running the Application
+### Running the Application
 
-> Open [http://localhost:8000](http://localhost:8000) in your browser.
+- Access the frontend at [http://localhost:8000](http://localhost:8000).
+- Access the administrative dashboard at [http://localhost:8000/wp-admin](http://localhost:8000/wp-admin).
 
-> Access the dashboard at [http://localhost:8000/wp-admin](http://localhost:8000/wp-admin).
+## License
 
-## 📜 License
-
-All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
+All rights reserved. This project is intended for educational purposes only and may not be distributed or used without explicit permission.
